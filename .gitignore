@@ -1,0 +1,10 @@
+## FOLDERS
+/.sass-cache/
+/.vscode/
+
+## FILES
+.DS_Store
+*.code-workspace
+.idea
+*.iml
+*.unison.tmp
