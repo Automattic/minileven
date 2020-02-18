@@ -44,7 +44,6 @@ function load_plugin() {
 	if (
 		! class_exists( 'Jetpack' )
 		|| \Jetpack::is_module_active( 'minileven' )
-		|| function_exists( 'jetpack_check_mobile' )
 	) {
 		return;
 	}
